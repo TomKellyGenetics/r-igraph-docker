@@ -1,0 +1,7 @@
+sut:
+  build: .
+  command: echo "build complete"
+
+test:
+  build: .
+  command: R -e 'library("igraph")'
